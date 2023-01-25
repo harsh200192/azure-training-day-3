@@ -30,4 +30,4 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Python
-      run: python -v
+      run: python -c "import sys; print(sys.version)"
